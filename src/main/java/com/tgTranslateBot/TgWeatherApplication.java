@@ -4,10 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TgTranslateBotApplication {
-
-	public static void main(String[] args) {
-		SpringApplication.run(TgTranslateBotApplication.class, args);
-	}
+public class TgWeatherApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(TgWeatherApplication.class, args);
+    }
 
 }

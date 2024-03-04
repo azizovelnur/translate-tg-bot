@@ -14,7 +14,9 @@ public class TgBot extends TelegramLongPollingBot {
     }
     @Override
     public void onUpdateReceived(Update update) {
-        System.out.println("fewfw");
+        if (update.hasMessage() && update.getMessage().hasText()) {
+            String msg = update.getMessage().getText();
+        }
     }
     @Override
     public String getBotUsername() {
