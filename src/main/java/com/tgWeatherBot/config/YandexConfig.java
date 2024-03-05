@@ -1,4 +1,4 @@
-package com.tgTranslateBot.config;
+package com.tgWeatherBot.config;
 
 import lombok.Data;
 import org.springframework.beans.factory.annotation.Value;

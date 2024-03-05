@@ -1,4 +1,4 @@
-package com.tgTranslateBot.config;
+package com.tgWeatherBot.config;
 
 import feign.RequestInterceptor;
 import lombok.RequiredArgsConstructor;

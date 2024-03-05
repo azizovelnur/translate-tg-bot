@@ -1,6 +1,6 @@
-package com.tgTranslateBot.config;
+package com.tgWeatherBot.config;
 
-import com.tgTranslateBot.controller.TgBot;
+import com.tgWeatherBot.controller.TgBot;
 import org.springframework.context.event.ContextRefreshedEvent;
 import org.springframework.context.event.EventListener;
 import org.springframework.stereotype.Component;
